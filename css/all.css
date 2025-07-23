@@ -10143,6 +10143,10 @@ textarea.form-control-lg {
   z-index: 3 !important;
 }
 
+.z-4 {
+  z-index: 1020 !important;
+}
+
 .cursor-auto {
   cursor: auto !important;
 }
@@ -14812,6 +14816,10 @@ body {
   padding: 4px 16px;
 }
 
+.nav-tabs {
+  border: none;
+}
+
 .nav-tabs .nav-link {
   border: none;
   border-radius: 0;
@@ -14822,7 +14830,7 @@ body {
 .nav-tabs .nav-link.active {
   background-color: transparent;
   color: white;
-  border-bottom: 2px solid #FFDF65;
+  border-bottom: 3px solid #FFDF65;
 }
 
 .btn-warning {
