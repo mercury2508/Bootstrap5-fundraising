@@ -1,0 +1,20 @@
+.btn-warning {
+  transition: 0.3s;
+  &:hover {
+    color: #fff !important;
+    background-color: #ff785e;
+    border-color: #ff785e;
+  }
+}
+
+.btn-custom {
+  &:hover {
+    color: #858377;
+    background: $warning;
+    border-color: $warning;
+    .custom-icon {
+      color: #ff785e;
+      transition: 0.3s;
+    }
+  }
+}

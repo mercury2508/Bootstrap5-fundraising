@@ -1,0 +1,26 @@
+// 1. Bootstrap 功能函式
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. 自定義變數 (若你要覆蓋 bootstrap 變數)
+@import "./bootstrap-scss/variables";
+
+// 3. Bootstrap 原生變數、maps、mixins（順序不能錯）
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// 4. 自定義 utilities（必須在 maps 後面）
+@import "./custom/utilities";
+
+// 5. Bootstrap 核心
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/utilities"; // 引用後會套用你剛合併過的 $utilities
+@import "../node_modules/bootstrap/scss/bootstrap"; // 若你要其他元件功能（例如 modal 等）
+
+// 6. 你自己的 SCSS
+@import "index";
+@import "./custom/nav-tabs";
+@import "./custom/btn";
+@import "./custom/custom";
+@import "./custom/custom-accordion";
+@import "./custom/comment-block"

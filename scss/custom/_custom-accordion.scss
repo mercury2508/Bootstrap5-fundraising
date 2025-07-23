@@ -1,0 +1,47 @@
+.accordion .accordion-item {
+  border-radius: 8px;
+  background: none;
+  transition: border-radius 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+// 展開時變更 radius
+.accordion .accordion-item:has(.accordion-collapse.show) {
+  border-radius: 4px;
+}
+
+// 移除原本按鈕展開時的背景色變化
+.accordion .accordion-button:not(.collapsed) {
+  color: $base-dark;
+  background-color: #fff;
+}
+
+// 調整 focus 和 active 光陰效果
+.accordion .accordion-button:focus,
+.accordion .accordion-button:active {
+  box-shadow: 0 0 0 0.25rem rgba($warning, 0.4);
+  border-color: $warning;
+}
+
+// 調整標題和回答 padding
+.accordion .accordion-body {
+  padding: 1rem 1rem 1rem 64px;
+  @include media-breakpoint-down(sm) {
+    padding: 1rem;
+  }
+}
+
+// 調整字體
+.accordion {
+  .accordion-button,
+  .accordion-body {
+    font-size: 14px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    .accordion-button,
+    .accordion-body {
+      font-size: 16px;
+    }
+  }
+}

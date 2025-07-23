@@ -1,0 +1,14 @@
+// 若 $utilities 尚未定義，先給它一個空的 map
+$utilities: () !default;
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "cursor": (
+      property: cursor,
+      class: cursor,
+      responsive: true,
+      values: auto pointer grab,
+    )
+  )
+);

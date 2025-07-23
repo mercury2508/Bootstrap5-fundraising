@@ -1,0 +1,41 @@
+// 留言區頂部提醒
+.comment-reminder--border {
+  border-left: 4px solid $warning;
+  border-radius: 0.25rem;
+  background: #fefefe;
+}
+
+.comments-custom {
+  .name--font {
+    font-size: 20px;
+    letter-spacing: 2px;
+    @include media-breakpoint-down(sm) {
+      font-size: 16px;
+      letter-spacing: 1.6px;
+    }
+  }
+  time {
+    font-size: 14px;
+    letter-spacing: 2px;
+    @include media-breakpoint-down(sm) {
+      font-size: 12px;
+      letter-spacing: 1.71px;
+    }
+  }
+  .content--font {
+    color: #373a3c;
+    letter-spacing: 0.7px;
+    @include media-breakpoint-down(sm){
+      font-size: 14px;
+      letter-spacing: 0.61px;
+    }
+  }
+  .answer--font{
+    letter-spacing: 0.61px;
+    @include media-breakpoint-down(sm){
+      font-size: 12px;
+      letter-spacing: 0.52px;
+      text-align: justify;
+    }
+  }
+}

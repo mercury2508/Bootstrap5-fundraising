@@ -1,0 +1,15 @@
+.font-baloo-tamma2{
+  font-family: "Baloo Tamma 2", system-ui;
+}
+
+.letter-spaces{
+  &-1{
+    letter-spacing: 0.49px;
+  }
+  &-2{
+    letter-spacing: 0.7px;
+  }
+  &-3{
+    letter-spacing: 0.8px;
+  }
+}

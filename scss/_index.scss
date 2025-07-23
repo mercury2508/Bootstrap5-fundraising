@@ -1,0 +1,79 @@
+body{
+  font-family: "Noto Sans TC", sans-serif;
+  color: $base-dark;
+}
+
+@media (max-width: 575px) {
+  .font-family--grayBold {
+    font-family: NotoSansCJKtc-Bold;
+    font-size: 14px;
+    color: #636057;
+    letter-spacing: 1.75px;
+    text-align: center;
+  }
+}
+
+.progress--card-link {
+  color: #ff785e;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+}
+
+.custom--img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+@media (max-width: 375px) {
+  .custom--img {
+    max-width: 135px;
+    height: 132px;
+    display: block;
+    object-fit: cover;
+  }
+  .custom--img-wrap {
+    max-width: 135px;
+  }
+}
+
+.custom--card-text {
+  letter-spacing: 0.7px;
+  text-align: justify;
+  line-height: 20px;
+}
+
+.modal-header {
+  border-top: 4px solid $warning;
+}
+
+.product--letter-spacing {
+  letter-spacing: 3px;
+}
+
+.progress--height {
+  height: 1rem;
+}
+
+.product-content {
+  &--padding {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  &--border {
+    border-left: 2px solid $warning;
+  }
+}
+
+.tooltip .tooltip-inner {
+  color: $warning;
+}
+
+.badge--tea-color {
+  background: #e8e8db;
+}
+
+.badge--space {
+  padding: 4px 16px;
+}
