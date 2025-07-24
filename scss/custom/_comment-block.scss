@@ -9,9 +9,11 @@
   .name--font {
     font-size: 20px;
     letter-spacing: 2px;
+    font-weight: bolder;
     @include media-breakpoint-down(sm) {
       font-size: 16px;
       letter-spacing: 1.6px;
+      font-weight: 700;
     }
   }
   time {

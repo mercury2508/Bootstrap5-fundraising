@@ -14852,6 +14852,11 @@ body {
   transition: 0.3s;
 }
 
+.sns-link .sns--button {
+  width: 30px;
+  height: 30px;
+}
+
 .font-baloo-tamma2 {
   font-family: "Baloo Tamma 2", system-ui;
 }
@@ -14917,11 +14922,13 @@ body {
 .comments-custom .name--font {
   font-size: 20px;
   letter-spacing: 2px;
+  font-weight: bolder;
 }
 @media (max-width: 575.98px) {
   .comments-custom .name--font {
     font-size: 16px;
     letter-spacing: 1.6px;
+    font-weight: 700;
   }
 }
 .comments-custom time {
