@@ -280,7 +280,7 @@
       <div class="container">
         <!-- 專案介紹 常見問答 導覽列 -->
         <ul
-          class="nav nav-tabs justify-content-around justify-content-sm-start"
+          class="nav nav-tabs justify-content-around justify-content-sm-start" id="tab-buttons"
         >
           <li class="nav-item">
             <button
@@ -577,6 +577,7 @@
               </ul>
             </div>
 
+            <!-- 目前進度 -->
             <div class="tab-pane fade" id="current-progress">
               <ul class="list-unstyled">
                 <li class="mb-3">
@@ -690,6 +691,7 @@
               </ul>
             </div>
 
+            <!-- 留言 -->
             <div class="tab-pane fade" id="comments">
               <div
                 class="d-none d-sm-block comment-reminder--border fs-6 letter-spaces-2 p-3 mb-65"
@@ -734,7 +736,7 @@
                     <div
                       class="d-flex align-items-center gap-62 gap-sm-3 mb-2 mb-sm-3"
                     >
-                      <img src="/images/user_img02.jpg" alt="user_img02" />
+                      <img src="images/user_img02.jpg" alt="user_img02" />
                       <div>
                         <p class="mb-0 name--font">卡阿伯</p>
                         <time datetime="2020-05-22T11:32" class="text-secondary"
@@ -753,7 +755,7 @@
                     <div
                       class="d-flex align-items-center gap-62 gap-sm-3 mb-2 mb-sm-3"
                     >
-                      <img src="/images/user_img02.jpg" alt="user_img02" />
+                      <img src="images/user_img02.jpg" alt="user_img02" />
                       <div>
                         <p class="mb-0 name--font">賈師</p>
                         <time datetime="2020-05-22T11:32" class="text-secondary"
@@ -772,7 +774,7 @@
                     <div
                       class="d-flex align-items-center gap-62 gap-sm-3 mb-2 mb-sm-3"
                     >
-                      <img src="/images/user_img02.jpg" alt="user_img02" />
+                      <img src="images/user_img02.jpg" alt="user_img02" />
                       <div>
                         <p class="mb-0 name--font">俊俊</p>
                         <time datetime="2020-05-22T11:32" class="text-secondary"
@@ -1002,7 +1004,7 @@
           </div>
 
           <!-- 贊助專案 form -->
-          <div class="my-5">
+          <div class="my-5" id="sponsorForm">
             <div class="d-flex justify-content-center mb-4">
               <img
                 src="images/icon_heart.svg"
@@ -1319,6 +1321,11 @@
         </div>
       </div>
 
+    </div>
+    <div class="position-sticky bottom-0">
+      <button class="d-md-none btn btn-warning text-dark rounded-0 w-100 letter-spaces-4 fw-bold py-61" type="button" id="bottomSponsorBtn" onclick="scrollToForm()">
+        贊助專案
+      </button>
     </div>
     <footer class="container-fuild bg-base-dark text-center py-65">
       <p class="mb-0 text-white">

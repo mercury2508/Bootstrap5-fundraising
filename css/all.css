@@ -14870,6 +14870,9 @@ body {
 .letter-spaces-3 {
   letter-spacing: 0.8px;
 }
+.letter-spaces-4 {
+  letter-spacing: 1.6px;
+}
 
 .accordion .accordion-item {
   border-radius: 8px;
