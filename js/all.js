@@ -1,4 +1,4 @@
-// 切換頁籤tab
+// 提示框 tooltips 初始化
 document.addEventListener("DOMContentLoaded", function () {
   const tooltipTriggerList = document.querySelectorAll(
     '[data-bs-toggle="tooltip"]'

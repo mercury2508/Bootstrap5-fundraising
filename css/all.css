@@ -14796,10 +14796,6 @@ body {
   height: 1rem;
 }
 
-.product-content--padding {
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
 .product-content--border {
   border-left: 2px solid #FFDF65;
 }
@@ -14855,6 +14851,10 @@ body {
 .sns-link .sns--button {
   width: 30px;
   height: 30px;
+}
+
+.btn-shadow {
+  box-shadow: 0 0 0.7rem rgba(73, 72, 70, 0.4);
 }
 
 .font-baloo-tamma2 {
