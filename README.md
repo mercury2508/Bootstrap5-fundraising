@@ -1,14 +1,9 @@
-# Bootstrap 5 募資網站
-這是一個使用 Bootstrap 5 製作的募資網站，主要製作募資網站的首頁並實作以下功能：
+# 簡介
+此為練習使用 Bootstrap 5 製作的募資網站，主要實作以下功能並分享製作筆記。
 
 - RWD 響應
 - Scss 客製化按鈕與邊距
 - Bootstrap 5 元件 (Modal, Accordion, Collapse, Navbar)
-
-## 技術棧
-- Bootstrap 5
-- SCSS
-- Live Sass Compiler
 
 ## 客製化樣式
 1. 以 NPM 下載 Bootstrap 後，為了自定義，從專案資料夾內的 node_modules/bootstrap/scss，將 _variables.scss 和 _utilities.scss 複製一份貼到 custom 資料夾以便管理。檔案結構可以參考 Bootstrap 的[官方文件](https://bootstrap5.hexschool.com/docs/5.0/customize/sass/)。
@@ -128,4 +123,5 @@ form 上方的水平線，先做外層容器 `.position-relative` div，裡面�
 
 invalid 的文字可以在 `.invalid-feedback` div 上做調整。
 
-## 可以改善的部分
+## 感謝
+[21 天 Bootstrap 5 募資網站](https://hackmd.io/@YmcMgo-NSKOqgTGAjl_5tg/ryar-vGOd/%2FNdGKchTeRBqbkTMiQ2HSmw)
