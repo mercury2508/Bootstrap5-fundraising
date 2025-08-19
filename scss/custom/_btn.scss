@@ -24,8 +24,15 @@
     width: 30px;
     height: 30px;
   }
+  .btn:hover {
+    background: $warning;
+    border: 1px solid $warning;
+  }
+  svg{
+    color: #fff;
+  }
 }
 
-.btn-shadow{
-  box-shadow: 0 0 .7rem rgba(73, 72, 70, .4);
+.btn-shadow {
+  box-shadow: 0 0 0.7rem rgba(73, 72, 70, 0.4);
 }

@@ -5,6 +5,15 @@
 - Scss 客製化按鈕與邊距
 - Bootstrap 5 元件 (Modal, Accordion, Collapse, Navbar)
 
+## 網站畫面
+![home](https://i.postimg.cc/NMjR2N0y/home.png)
+
+![faq](https://i.postimg.cc/t4d6S0ZZ/faq.png)
+
+![RWD](https://i.postimg.cc/pV9q0T2m/RWD.png)
+
+- DEMO：https://mercury2508.github.io/Bootstrap5-fundraising/
+
 ## 客製化樣式
 1. 以 NPM 下載 Bootstrap 後，為了自定義，從專案資料夾內的 node_modules/bootstrap/scss，將 _variables.scss 和 _utilities.scss 複製一份貼到 custom 資料夾以便管理。檔案結構可以參考 Bootstrap 的[官方文件](https://bootstrap5.hexschool.com/docs/5.0/customize/sass/)。
 (複製一份起來是為了避免修改原始檔，萬一想改回最原始的狀態或不知道當初修改了哪裡，就能夠參照原始檔回到最初始的樣式設定。)

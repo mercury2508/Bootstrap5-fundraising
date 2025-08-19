@@ -14852,6 +14852,13 @@ body {
   width: 30px;
   height: 30px;
 }
+.sns-link .btn:hover {
+  background: #FFDF65;
+  border: 1px solid #FFDF65;
+}
+.sns-link svg {
+  color: #fff;
+}
 
 .btn-shadow {
   box-shadow: 0 0 0.7rem rgba(73, 72, 70, 0.4);
